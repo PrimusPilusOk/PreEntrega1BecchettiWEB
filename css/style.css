@@ -1,0 +1,133 @@
+/*Index*/
+
+html {
+    background: rgb(2,0,36);
+background: linear-gradient(219deg, rgba(2,0,36,1) 0%, rgba(241,241,149,1) 0%, rgba(255,222,113,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+/*---Header---*/
+
+header{
+    background-color: bisque;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+body header nav ul{
+    gap: 20px;
+    text-decoration: none;
+}
+
+body header nav :hover{
+    color: rgb(245, 17, 195);
+}
+
+header a{
+    text-align: center;
+    font-style: italic;
+    font-size: 75px;
+    text-decoration: none;
+}
+
+.hero {
+    font-size: 45px;
+    text-align: center;
+    font-style: italic;
+    color: red
+}
+
+.hero{
+    background-image: url("../img/rome-italy-bas-relief-of-gladiators-fighting-490593419-57b3bd1a5f9b58b5c215761a.jpg");
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+header nav ul{ 
+    display: flex;
+    text-decoration: none;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+/*---Main---*/
+
+.hero h2{
+    font-style: italic;
+    font-size: 25px;
+    color: rgb(47, 0, 255)
+}
+
+main section a {
+    text-decoration: none;
+}
+
+.galeria{
+    font-size: 35px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+}
+
+.grilla{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-auto-rows: 300px;
+    gap: 5px;
+}
+
+.grilla div img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.bienvenidos h2{
+    font-style: italic;
+    font-size: 60px;
+    text-align: center;
+    background-color: bisque;
+    color: rgb(1, 0, 2)
+}
+
+.productos {
+    text-align: center;
+    background-color: bisque;
+    border: 2px solid black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(1, 0, 2)
+}
+
+/*---Footer---*/
+
+footer{
+    background-color: bisque;
+}
+
+.redes h2{
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(119, 0, 255)
+}
+
+footer div {
+    width: 100%; /*quedan muy grandes, como los achico?*/
+    height: 100%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
